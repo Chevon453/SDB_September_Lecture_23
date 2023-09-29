@@ -44,4 +44,52 @@ console.log("3"=== 3); // false
 // Not Equal to, !=
 console.log("3" != 3); // false
 console.log("3" != 4); // true
-35709
+
+// strict Not Equal To, !==, compare/check both datatype and values
+console.log("3" != 3); // false     
+console.log("3" != 4); //  true
+
+// Greater Than
+3 > 2;
+
+// Less Than
+4 < 6;
+
+// Greater Than or Equal To
+// ! The great than operator must be  used BEFORE the equal sign in order to work/ execute correctly
+
+console.log(3 >= 2 ); // true
+
+// Less Than or Equal  To, <=
+console.log( 1 <= 3 ); // true
+
+// And, &&
+2 && 3;
+
+// or, ||
+2 || 3;
+
+/*
+    Logical Operators
+    - Arithmetic operators
+*/
+
+// Addition Operator
+let r = 4;
+r += 1; // r = r + 1; answer: 5
+console.log(r); // 5
+
+// Subtraction Operator
+r -= 3; // r = r - 3
+
+// Multiplication Operator
+r *= 2; // r = r * 2
+
+// Division Operator
+r /= 1; // r = r / 1
+
+// Remainder Operator (Modulus operator)
+r %= 1; // r = r % 1
+
+// Exponential Operator
+r **= 1; // r = r ** 1;
